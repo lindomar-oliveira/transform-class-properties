@@ -1,0 +1,19 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES2017"],
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "outDir": "lib",
+    "removeComments": true,
+    "target": "ES2017"
+  },
+  "include": [
+    "src"
+  ]
+}
