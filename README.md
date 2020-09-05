@@ -59,8 +59,10 @@ console.log(transform(book1)); // Book { title: 'MY FIRST BOOK', price: 12.32, i
 |---------------------------------------------------------------|-----------------------------------------------------|---------------------|
 | @Append(additionalValue: string \| number)                    | Adds value at the end.                              | string              |
 | @Capitalize()                                                 | Capitalize the first letter and lowercase the rest. | string              |
+| @EscapeHtml()                                                 | Replaces <, >, &, ', " and / with HTML entities.    | string              |
 | @Float(fractionDigits?: number)                               | Converts number to float.                           | number              |
 | @Integer()                                                    | Converts number to integer.                         | number              |
+| @Normalize()                                                  | Removes special characters and accents.             | string              |
 | @Prepend(additionalValue: string \| number)                   | Adds value at the beginning.                        | string              |
 | @Regex(expression: RegExp)                                    | Returns matched value with regular expression.      | string              |
 | @RemoveNonNumeric()                                           | Removes anything non-numeric character.             | string              |
@@ -69,6 +71,7 @@ console.log(transform(book1)); // Book { title: 'MY FIRST BOOK', price: 12.32, i
 | @ToLowerCase()                                                | Lower case characters.                              | string              |
 | @ToUpperCase()                                                | Upper case characters.                              | string              |
 | @Trim()                                                       | Trim characters.                                    | string              |
+| @UnescapeHtml()                                               | Undo escape html.                                   | string              |
 
 ## License
 
